@@ -1,0 +1,23 @@
+
+<!--Link to another site -->
+<a href="https://cmpe.emu.edu.tr/en">EasternUniversity</a><br>
+<!--Link to an anchor-->
+<a href="#AraştırmaveGeliştirme"> Daire Başkanlığı</a><br>
+<!--Link to a page on the same site-->
+<a href="https://evdc.emu.edu.tr/en">EVDC</a><br>
+<!--Link that dials a number-->
+<a href="Number:+4535553">Call Us</a><br>
+<!--Link that runs JavaScript-->
+<script>
+    alert('ALIPAGE');
+</script>
+<a href="javascript:alert('ALIPAGE')">Click Me</a><br>
+<!--Link that runs email client-->
+<a href="mypage@example.com">Email Us</a><br>
+<!--Link that open the link on a new tab-->
+<a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Visit Example.com</a>
+
+
+
+
+
