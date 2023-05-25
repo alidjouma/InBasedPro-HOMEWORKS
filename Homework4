@@ -1,0 +1,47 @@
+//FIRST PART
+<!DOCTYPE html>
+<html>
+<head>
+        <title>AICHA'S FORM</title>
+</head>
+<body>
+<h1>FORM FOR APPLYING</h1>
+<h2>First Part</h2>
+<form action="yyyyy" method="get" target="_blank">
+    <label >Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label >Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<h2>Second Part</h2>
+<form action="xxxxxx" method="post" target="_self">
+    <label >Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label >Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+
+//SECOND PART
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="ALICANVA" width="195" height="75" style="border:1px solid #000000;">
+</canvas>
+
+<script>
+    var c = document.getElementById("ALICANVA");
+    var ctx = c.getContext("2d");
+    ctx.fillStyle = "#00ffc4";
+    ctx.fillRect(0, 0, 150, 75);
+</script>
+
+</body>
+</html>
