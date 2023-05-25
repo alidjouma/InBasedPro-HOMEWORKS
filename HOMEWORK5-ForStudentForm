@@ -44,7 +44,6 @@ if($_SERVER["REQUEST_METHOD"] = "POST" && !empty($_POST)) {
     $sql_query = "INSERT INTO students(fullname, email, gender)VALUES('$fname', '$email', '$gender')";
     $sql_query = "SELECT * FROM students";
     if ($connection->query($sql_query) === TRUE) {
-        // your code here
         $sql_query = "INSERT INTO students(fullname, email, gender)VALUES('$fname', '$email', '$gender')";
 
     }
@@ -53,7 +52,6 @@ if($_SERVER["REQUEST_METHOD"] = "POST" && !empty($_POST)) {
 
     function myFunction($connection) {
         if ($connection->query($sql_query) === TRUE) {
-            // your code here
             echo "New record added to database";
 
         }
