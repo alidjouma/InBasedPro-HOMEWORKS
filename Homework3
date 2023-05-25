@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>THE INFORMATION</title>
+    <meta name="author" content="ALI ABDULRAHMAN">
+    <meta name="description" content="A description of the book">
+    <meta name="generator" content="Xddddd">
+    <meta name="keywords" content="ycccccc">
+</head>
+<body>
+<h1>THE PAGE OF ALI</h1>
+<p>HAPPY TO RECEIVE YOU</p>
+</body>
+</html>
+
+<form>
+    <input type="hidden" name="username" value="838093">
+    <input type="submit" value="Submit"><br>
+        <label >Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <input type="submit" value="Submit"><br>
+        <label >Amount:</label>
+        <input type="number" id="Amount" name="Amount" min="1" max="10">
+        <input type="submit" value="Submit"><br>
+    <label >Contenance:</label>
+    <input type="range" id="Contenance" name="Contenance" min="0" max="99">
+    <input type="submit" value="Submit"><br>
+    <label >Search:</label>
+    <input type="search" id="search" name="search">
+    <input type="submit" value="Submit"><br>
+    <input type="image" src="submit.png" alt="Submit"><br>
+    <label >Week:</label>
+    <input type="week" id="week" name="week">
+    <input type="submit" value="Submit"><br>
+    <label >Homepage:</label>
+    <input type="url" id="adminpage" name="adminpage">
+    <input type="submit" value="Submit"><br>
+    <label >RV:</label>
+    <input type="datetime-local" id="RV" name="RV">
+    <input type="submit" value="Submit"><br>
+    <label >Birthday:</label>
+    <input type="month" id="birthday" name="birthday">
+    <input type="submit" value="Submit"><br>
+    <label >Horloge:</label>
+    <input type="time" id="horloge" name="horloge">
+    <input type="submit" value="Submit"><br>
+</form>
