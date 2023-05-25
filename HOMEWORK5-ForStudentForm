@@ -1,0 +1,72 @@
+//index.php
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form For Students</title>
+    <h1>Registration Form For Students</h1>
+</head>
+<body>
+
+<form action="submit.php" method="post">
+    <label >Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br>
+    <label >Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    Gender:<br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label >Male</label><br>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label >Female</label><br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+//submit.php
+<?php
+if($_SERVER["REQUEST_METHOD"] = "POST" && !empty($_POST)) {
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "InBasedPro";
+
+    //conection
+    $connection = new mysqli($servername, $username, $password, $dbname);
+
+    if ($connection-- > connection_error) {
+        die("Connection failed: " . $connection-- > connect_error);
+    }
+    $fname = $_POST["fname"];
+    $email = $_POST["email"];
+    $gender = $_POST["gender"];
+
+    $sql_query = "INSERT INTO students(fullname, email, gender)VALUES('$fname', '$email', '$gender')";
+    $sql_query = "SELECT * FROM students";
+    if ($connection->query($sql_query) === TRUE) {
+        // your code here
+        $sql_query = "INSERT INTO students(fullname, email, gender)VALUES('$fname', '$email', '$gender')";
+
+    }
+
+    $sql_query = "INSERT INTO students(fullname, email, gender)VALUES('$fname', '$email', '$gender')";
+
+    function myFunction($connection) {
+        if ($connection->query($sql_query) === TRUE) {
+            // your code here
+            echo "New record added to database";
+
+        }
+        else{
+            echo "Error: " . $sql_query . $connection->error;
+
+        }
+
+    }
+
+
+
+}
+
+?>
+
